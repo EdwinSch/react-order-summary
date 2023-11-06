@@ -45,7 +45,8 @@ body {
 }
 
 main {
-  width: 450px;
+  width: 90vw;
+  max-width: 450px;
   border-radius: 20px;
   background: white;
   box-shadow: var(--shadow);
@@ -53,6 +54,7 @@ main {
 
 .illustration {
   border-radius: 20px 20px 0 0;
+  width: 100%;
 }
 
 .main-content {
@@ -61,6 +63,10 @@ main {
   flex-direction: column;
   justify-content: space-between;
   gap: 28px;
+
+  @media only screen and (max-width: 500px) {
+    padding: 32px;
+  }
 }
 
 /* ---HEADER COMPONENT */
@@ -71,6 +77,10 @@ h1 {
   color: var(--headings);
   font-size: 1.75rem;
   font-weight: 900;
+
+  @media only screen and (max-width: 500px) {
+    font-size: 1.375rem;
+  }
 }
 
 /* ---PLANS COMPONENT */
@@ -95,6 +105,16 @@ h1 {
       color: var(--subText);
       font-size: 1rem;
       font-weight: 500;
+    }
+
+    @media only screen and (max-width: 500px) {
+      & h2 {
+        margin-bottom: 4px;
+        font-size: 0.875rem;
+      }
+      .price {
+        font-size: 0.875rem;
+      }
     }
   }
 
