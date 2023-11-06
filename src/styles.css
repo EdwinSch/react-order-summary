@@ -39,4 +39,15 @@ body {
   font-family: var(--font);
   min-height: 100vh;
   background: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 450px;
+  height: 697px;
+  border-radius: 20px;
+  background: white;
+  box-shadow: var(--shadow);
 }

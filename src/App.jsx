@@ -1,5 +1,11 @@
+import illustration from "./assets/illustration-hero.svg";
+
 function App() {
-  return <h1>hello world</h1>;
+  return (
+    <main>
+      <img src="" alt="" />
+    </main>
+  );
 }
 
 export default App;
