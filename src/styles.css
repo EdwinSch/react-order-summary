@@ -74,6 +74,7 @@ h1 {
 }
 
 /* ---PLANS COMPONENT */
+
 .plans-container {
   & article {
     display: flex;

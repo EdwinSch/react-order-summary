@@ -1,6 +1,6 @@
 import symbol from "../assets/icon-music.svg";
 
-const SinglePlan = ({ id, title, period, price }) => {
+const SinglePlan = ({ title, period, price }) => {
   return (
     <article>
       <img src={symbol} alt="symbol" />
