@@ -76,6 +76,10 @@ h1 {
 /* ---BUTTONS COMPONENT */
 
 .buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   .add-btn {
     display: block;
     width: 100%;
@@ -99,7 +103,7 @@ h1 {
 
   .cancel-btn {
     display: block;
-    width: 100%;
+    width: fit-content;
     padding: 15px 0;
     border-radius: 11px;
     border: none;
