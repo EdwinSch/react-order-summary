@@ -73,6 +73,35 @@ h1 {
   font-weight: 900;
 }
 
+/* ---PLANS COMPONENT */
+.plans-container {
+  & article {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: var(--bgSecondary);
+    padding: 24px;
+    border-radius: 11px;
+
+    & h2 {
+      margin-bottom: 5px;
+      color: var(--headings);
+      text-transform: capitalize;
+      font-size: 1rem;
+      font-weight: 900;
+    }
+    .price {
+      color: var(--subText);
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
+
+  & article:nth-child(1) {
+    margin-bottom: 9px;
+  }
+}
+
 /* ---BUTTONS COMPONENT */
 
 .buttons-container {
