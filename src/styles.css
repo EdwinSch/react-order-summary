@@ -1,0 +1,42 @@
+/* ---RESETS */
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* ---ROOT VARS */
+
+:root {
+  --bg: #e0e8ff;
+  --bgSecondary: #f7f9ff;
+  --primary: #382ae1;
+  --shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
+  --headings: #1f2e55;
+  --subText: #717fa6;
+  --hover: #766cf1;
+  --font: "Red Hat Display", sans-serif;
+}
+
+/* ---MAIN STYLES */
+
+body {
+  font-family: var(--font);
+  min-height: 100vh;
+  background: var(--bg);
+}
