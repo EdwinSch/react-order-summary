@@ -46,8 +46,25 @@ body {
 
 main {
   width: 450px;
-  height: 697px;
   border-radius: 20px;
   background: white;
   box-shadow: var(--shadow);
+}
+
+.illustration {
+  border-radius: 20px 20px 0 0;
+}
+
+.main-content {
+  padding: 45px 48px 48px 48px;
+}
+
+/* ---HEADER COMPONENT */
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--headings);
+  font-size: 1.75rem;
+  font-weight: 900;
 }
