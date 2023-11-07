@@ -1,4 +1,4 @@
-import illustration from "./assets/illustration-hero.svg";
+import Hero from "./components/Hero";
 import Title from "./components/Title";
 import Plans from "./components/Plans";
 import Buttons from "./components/Buttons";
@@ -6,7 +6,7 @@ import Buttons from "./components/Buttons";
 function App() {
   return (
     <main>
-      <img src={illustration} alt="illustration" className="illustration" />
+      <Hero />
       <div className="main-content">
         <Title text={"order summary"} />
         <Plans />
