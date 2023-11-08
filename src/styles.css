@@ -169,7 +169,7 @@ h1 {
     transition: 250ms ease;
 
     &:hover {
-      color: var(--headings);
+      color: red;
     }
   }
 }
