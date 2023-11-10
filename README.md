@@ -5,7 +5,7 @@ Showcasing: component based design and dynamic styling.
 
 ### Live Demo
 
-🚀 [Deployed App](https://)
+🚀 [Deployed App](https://cerulean-otter-e1c16b.netlify.app/)
 
 #### 🛠️ Build with
 
