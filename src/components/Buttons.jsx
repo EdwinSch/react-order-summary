@@ -1,23 +1,11 @@
-import { useState } from "react";
-
 const Buttons = () => {
-  const [clicks, setClicks] = useState(0);
-
-  function addToCart() {
-    setClicks(clicks + 1);
-  }
-
-  function cancel() {
-    setClicks(0);
-  }
-
   return (
     <div className="buttons-container">
-      <button onClick={addToCart} className="add-btn" type="button">
-        Add to Cart ({clicks})
+      <button className="proceed-btn" type="button">
+        Proceed to Payment
       </button>
 
-      <button onClick={cancel} className="cancel-btn" type="button">
+      <button className="cancel-btn" type="button">
         Cancel Order
       </button>
     </div>
