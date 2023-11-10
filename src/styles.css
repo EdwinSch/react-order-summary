@@ -104,21 +104,33 @@ h1 {
 
 /* ---PLANS COMPONENT */
 
-.plans-container {
-  & article {
+.plan-wrapper {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 24px;
+  border-radius: 11px;
+  background: var(--bgSecondary);
+
+  @media only screen and (max-width: 500px) {
+    padding: 16px;
+  }
+
+  .left-wrapper {
     display: flex;
     gap: 20px;
-    align-items: center;
-    background-color: var(--bgSecondary);
-    padding: 24px;
-    border-radius: 11px;
 
+    & img {
+      width: 48px;
+      height: 48px;
+    }
     & h2 {
-      margin-bottom: 5px;
+      margin-bottom: 4px;
       color: var(--headings);
-      text-transform: capitalize;
       font-size: 1rem;
       font-weight: 900;
+      text-transform: capitalize;
     }
     .price {
       color: var(--subText);
@@ -127,20 +139,13 @@ h1 {
     }
 
     @media only screen and (max-width: 500px) {
-      padding: 16px;
-
       & h2 {
-        margin-bottom: 4px;
-        font-size: 0.875rem;
+        font-size: 14px;
       }
       .price {
-        font-size: 0.875rem;
+        font-size: 14px;
       }
     }
-  }
-
-  & article:nth-child(1) {
-    margin-bottom: 9px;
   }
 }
 
